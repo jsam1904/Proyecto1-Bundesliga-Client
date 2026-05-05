@@ -279,9 +279,9 @@ body {
 }
 .team-card:hover .card-crest::after { transform: scaleX(1); }
 .card-crest img {
-  max-height: 80px;
-  max-width: 100px;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: transform var(--transition);
 }
 .team-card:hover .card-crest img { transform: scale(1.06); }

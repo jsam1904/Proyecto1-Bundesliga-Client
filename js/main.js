@@ -2,7 +2,7 @@ let state = {
   page:       1,
   limit:      12,
   q:          '',
-  sort:       'id',
+  sort:       '',
   order:      'asc',
   editingId:  null,
   deletingId: null,
